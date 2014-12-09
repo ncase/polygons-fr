@@ -1,18 +1,17 @@
 <!doctype html>
 <html>
 <head>
-
-	<!-- Place this data between the <head> tags of your website -->
-	<title>Parable of the Polygons - a playable post on the shape of society</title>
-	<meta name="description" content="A playable post on game theory, diversity, and the cutest bigots." />
+	<meta charset="UTF-8">
+	<title>La Parabole des Polygones - un essai jouable sur la forme que prend une société</title>
+	<meta name="description" content="Un essai jouable sur la théorie des jeux, diversité, et des racistes sacrément mignons." />
 	<link rel="icon" type="image/png" href="favicon.png">
 
-	<!-- Schema.org markup for Google+ -->
+	<!-- Schema.org markup pour Google+ -->
 	<meta itemprop="name" content="Parable of the Polygons">
 	<meta itemprop="description" content="A playable post on game theory, diversity, and the cutest bigots.">
 	<meta itemprop="image" content="http://ncase.me/polygons/social/thumbnail.png">
 
-	<!-- Twitter Card data -->
+	<!-- Carte Twitter -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@ncasenmare">
 	<meta name="twitter:title" content="Parable of the Polygons">
@@ -20,7 +19,7 @@
 	<meta name="twitter:creator" content="@vihartvihart">
 	<meta name="twitter:image" content="http://ncase.me/polygons/social/thumbnail.png">
 
-	<!-- Open Graph data -->
+	<!-- Données Open Graph -->
 	<meta property="og:title" content="Parable of the Polygons">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="http://ncase.me/polygons">
@@ -34,45 +33,45 @@
 </head>
 <body>
 
-	<!-- CARTOONS -->
+	<!-- DESSINS -->
 	<div id="cartoon_container">
 		<img id="cartoon" width="270" src=""/>
 		<div id="cartoon_arrow"></div>
 	</div>
 
-	<!-- SPLASH -->
+	<!-- INTRO -->
 	<div id="intro_container">
 		<div id="intro">
 			<iframe src="play/intro/intro.html" id="intro_background" scrolling="no"></iframe>
 		</div>
 	</div>
 
-	<!-- CHAPTER -->
+	<!-- CHAPITRE -->
 	<div class="chapter">
 
-		<p><strong>This is a story of how harmless choices can make a harmful world.</strong></p>
+		<p><strong>C'est l'histoire de comment des choix qui ne font de mal à personne peuvent créer un monde qui fait du mal à tous.</strong></p>
 		<p>
-			These little cuties are 50% Triangles, 50% Squares, and 100% slightly shapist.
-			<span cartoon="i_like_squares.png">But only slightly!</span>
-			In fact, every polygon <i>prefers</i> being in a diverse crowd:
+			Ces mignonnes créatures sont 50% Triangles, 50% Carrés, et 100% légèrement &ldquo;formistes&rdquo;.
+			<span cartoon="i_like_squares.png">Mais seulement légèrement !</span>
+			En effet, chaque polygone <i>préfère</i> être dans une foule diverse:
 		</p>
 
 		<iframe id="mini_intro" playable src="play/mini/mini_intro.html" width="800" height="385" scrolling="no" style="margin:0 auto;display:block" embedded></iframe>
 
 		<p>
-			You can only move them if they're unhappy with their immediate neighborhood.
-			Once they're OK where they are, <i>you can't move them until they're unhappy with their neighbors again</i>.
-			They've got one, simple rule:
+			On peut seulement les bouger si ils sont mécontents avec leur voisinage immédiat.
+			Une fois qu'ils sont contents d'être là où ils sont, <i>on ne peut plus les bouger à moins qu'ils ne redeviennent mécontents avec leurs voisins</i>.
+			Ils ont une seule règle, simple:
 		</p>
 
 		<p style="text-align:center">
 			<b>
-			“I wanna move if less than 1/3 of my neighbors are like me.”
+			&ldquo;Je veux déménager seulement si moins d&rsquo;1/3 de mes voisins sont comme moi.&rdquo;
 			</b>
 		</p>
-		<iframe playable src="play/mini/mini_unhappy.html" width="250" height="300" scrolling="no" style="float:left; margin:0; margin-left:10px; position:relative; left:-30px"  embedded></iframe>
-		<iframe playable src="play/mini/mini_happy.html" width="250" height="300" scrolling="no" style="float:left; margin:0; margin-left:10px"  embedded></iframe>
-		<iframe playable src="play/mini/mini_bored.html" width="250" height="300" scrolling="no" style="float:left; margin:0; margin-left:10px; position:relative; left:30px"  embedded></iframe>
+		<iframe playable src="play/mini/mini_unhappy.html" width="250" height="320" scrolling="no" style="float:left; margin:0; margin-left:10px; position:relative; left:-30px"  embedded></iframe>
+		<iframe playable src="play/mini/mini_happy.html" width="250" height="320" scrolling="no" style="float:left; margin:0; margin-left:10px"  embedded></iframe>
+		<iframe playable src="play/mini/mini_bored.html" width="250" height="320" scrolling="no" style="float:left; margin:0; margin-left:10px; position:relative; left:30px"  embedded></iframe>
 		<div style="clear:both;height: 0;position: relative;">
 			<div style="width: 4px; height: 290px; background: #bbb;position: absolute;top: -292px;left: 245px;"></div>
 			<div style="width: 4px; height: 290px; background: #bbb;position: absolute;top: -292px;left: 537px;"></div>
@@ -80,85 +79,85 @@
 		<br>
 
 		<p>
-			Harmless, right?
-			Every polygon would be happy with a mixed neighborhood.
-			Surely their small bias can't affect the larger shape society that much?
-			Well...
+			Inoffensif, non ?
+			Chaque polygone serait heureux avec un voisinage varié.
+			Certainement leur légère préférence ne peut pas influencer leur société plus que ça ?
+			Et bien...
 		</p>
 		<div class="instruction">
-			drag &amp; drop unhappy polygons until nobody is unhappy:<br>
-			<span style="font-size:18px">(just move them to random empty spots. don't think too much about it.)</span>
+			glissez &amp; déposez les polygones mécontents jusqu&rsquo;à que plus personne ne soit mécontent:<br>
+			<span style="font-size:18px">(faites les bouger comme bon vous semble. n&rsquo;y réfléchissez pas trop.)</span>
 		</div>
 
 	</div>
 
-	<!-- PLAYABLE -->
+	<!-- JOUABLE -->
 	<div class="playable">
 		<iframe playable src="play/manual/manual.html" width="550" height="650"></iframe>
 	</div>
 
-	<!-- CHAPTER -->
+	<!-- CHAPITRE -->
 	<div class="chapter"> 
 		<p>
-			And... our shape society becomes super segregated. Daaaaang.
+			Et... notre société devient super divisée. Aïe aïe aïe.
 		</p>
 		<p>
-			Sometimes a neighborhood just becomes square,
-			and it's not their fault if no triangles wanna stick around.
-			And a triangular neighborhood would welcome a square, but
-			<span cartoon="square_left.png">they can't help it if squares ain't interested.</span>
+			Des fois un voisinage devient peuplé seulement avec des carrés,
+			et ce n&rsquo;est pas de leur faute si aucun triangle ne veut rester.
+			Et un voisinage rempli de triangles accueillerait volontiers un carré, mais
+			<span cartoon="square_left.png">ils n&rsquo;y peuvent rien si les carrés ne sont pas intéressés.</span>
 		</p>
 		
 		<iframe id="mini_neighborhood" playable src="play/mini/mini_neighborhood.html" width="730" height="240" scrolling="no" style="margin:0 auto;display:block" embedded></iframe>
 
 		<p>
-			In this next bit, unhappy shapes automatically move to random empty spots.
-			There's also a graph that tracks how much segregation there is over time.
+			Dans cette prochaine partie, les formes mécontentes bougent automatiquement dans des emplacements aléatoires vides.
+			Il y&rsquo;a aussi un graphe qui suit leur ségrégation au fil du temps.
 		</p>
 		<div class="instruction">
-			run this simulation a few times. what happens?
+			lancez cette simulation quelques fois. que se passe-t-il ?
 		</div>
 	</div>
 
-	<!-- PLAYABLE -->
+	<!-- JOUABLE -->
 	<div class="playable">
 		<iframe playable src="play/automatic/automatic.html" width="1030" height="600"></iframe>
 	</div>
 
-	<!-- CHAPTER -->
+	<!-- CHAPITRE -->
 	<div class="chapter">
 		<p>
-			What's up with that? These are good shapes, <span cartoon="nice_triangle.jpg">nice shapes</span>.
-			And yet, though every individual only has a slight bias, the entire shape society cracks and splits.
+			Que se passe-t-il ? Ce sont des bonnes formes, <span cartoon="nice_triangle.jpg">de gentilles formes</span>.
+			Et pourtant, malgré le fait que chaque individu n&rsquo;ait qu'une légère préférence, c&rsquo;est toute la société qui se fissure.
 		</p>
 		
 		<iframe id="mini_checkerboard" playable src="play/mini/mini_checkerboard.html" width="730" height="240" scrolling="no" style="margin:0 auto;display:block" embedded></iframe>
 
 		<p>
-			<strong>Small individual bias can lead to large collective bias.</strong>
+			<strong>Une légère préférence individuelle peut mener à une large préférence collective.</strong>
 		</p>
 		<p>	
-			Equality is an unstable equilibrium.
-			The smallest of bias can push a whole society past the tipping point.
-			Well, what if we taught these shapes to have zero bias?
-			(Or if you're feeling particularly nasty today, more bias?)
+			L&rsquo;égalité est un équilibre instable.
+			La plus moindre des tendances peut faire basculer toute une société.
+			Que se passerait-il si nous enseignions à ces formes de n&rsquo;avoir aucun préjugés ?
+			(ou, si vous vous sentez plus malicieux ajourd'hui, d'avoir encore plus de préjugés ?)
 		</p>
 		<div class="instruction">
-			use the slider to adjust the shapes' individual bias:
+			utilisez le curseur pour ajuster les préjugés individuels des formes:
 		</div>
 	</div>
 
-	<!-- PLAYABLE -->
+	<!-- JOUABLE -->
 	<div class="playable">
 		<iframe playable src="play/automatic/automatic2.html" width="1030" height="600"></iframe>
 	</div>
 
-	<!-- CHAPTER -->
+	<!-- CHAPITRE -->
 	<div class="chapter">
 		<p>
-			Notice how much more segregated things become, when you increase the bias beyond 33%.
-			What if the threshold was at 50%?
-			Seems reasonable for a shape to prefer not being in the minority...
+			Remarquez à quel point les choses deviennent plus clivées quand vous augmentez le préjugé au delà de 33%.
+			Que se passe t-il si la limite est à 50% ?
+			Cela parait raisonnable pour une forme de préférer ne pas être dans la minorité...
 		</p>
 		
 		<iframe id="mini_bias_1" playable src="play/mini/mini_bias_1.html" width="310" height="420" scrolling="no" style="float:left; margin:0; margin-left:50px" embedded></iframe>
@@ -168,174 +167,164 @@
 		</div>
 
 		<p>
-			So yeah, just turn everyone's bias down to zero, right?
-			Haha, NOPE. The real world doesn't start anew with a random shuffling of citizens every day.
-			Everyday, you're not shuffling.
+			Mmh, mais il suffirait de baisser le préjugé de tout le monde à zéro, non ?
+			Haha, PAS POSSIBLE. Le monde réel ne recommence pas avec un mélange aléatoire de citoyens tous les jours.
 		</p>
 
 		<div class="instruction">
-			world starts segregated. what happens when you lower the bias?
+			le monde commence déjà clivé. que se passe-t-il quand vous baissez le préjugé?
 		</div>
 	</div>
 
-	<!-- PLAYABLE -->
+	<!-- JOUABLE -->
 	<div class="playable">
 		<iframe playable src="play/automatic/automatic3.html" width="1030" height="600"></iframe>
 	</div>
 
-	<!-- CHAPTER -->
+	<!-- CHAPITRE -->
 	<div class="chapter">
 		<p>
-			See what <i>doesn't</i> happen? 
-			No change. No mixing back together.
-			In a world where bias ever existed, being unbiased isn't enough!
-			We're gonna need active measures.
-			What if shapes wanted to seek out just a lil' more variety?
+			Vous voyez ce qui ne se <i>passe pas</i> ? 
+			Pas de changement. Pas de brassage.
+			Dans un monde où une tendance a existée, ne pas exhiber de préjugé ne suffit pas !
+			Il faut des mesures plus actives.
+			Que se passerait-il si les formes recherchaient juste un tout p&rsquo;tit plus de variété ?
 		</p>
 		
 		<iframe id="mini_nonconform" playable src="play/mini/mini_nonconform.html" width="400" height="440" scrolling="no" style="margin:0 auto;display:block" embedded></iframe>
 
 		<p>
-			Woah. Even though each polygon would be okay with having up to 90% of their neighbors that are like them,
-			they all mix together!
-			Let's see this play out on a larger scale,
-			when we change the amount of bias and anti-bias for all shapes.
+			Waou. Même si chaque polygone est satisfait d'avoir jusqu'à 90% de ses voisins qui lui sont identiques,
+			ils se mélangent tous !
+			Voyons ce que ça donne à plus grande échelle,
+			quand nous changeons les limites de préjugés et anti-préjugés pour toutes les formes.
 		</p>
 		<div class="instruction">
-			world starts segregated. what happens when shapes demand even the smallest bit of diversity?
+			le monde commence clivé. que se passe-t-il quand les formes demandent ne serait-ce qu'un tout petit peu de diversité ?
 		</div>
 	</div>
 
-	<!-- PLAYABLE -->
+	<!-- JOUABLE -->
 	<div class="playable">
 		<iframe playable src="play/automatic/automatic4.html" width="1030" height="600"></iframe>
 	</div>
 
-	<!-- CHAPTER -->
+	<!-- CHAPITRE -->
 	<div class="chapter">
 		<p>
-			All it takes is a change in the perception of what an acceptable environment looks like.
-			So, fellow shapes, remember it's not about triangles vs squares,
-			it's about deciding what we want the world to look like, and settling for no less.
+			Tout ce qu&rsquo;il faut, c'est un changement dans la perception de ce qui constitue un environnement acceptable.
+			Amies formes, souvenez vous qu'il ne s&rsquo;agit pas de triangles contre carrés;
+			il s&rsquo;agit de décider ce que nous voulons pour notre monde, et de n'accepter rien de moins.
 		</p>
 		<p style="text-align:center">
 			<b>
-				GET THEM ALL IN THE BOX OF
-				<span style="color:hsl(0,90%,60%)">F</span>
-				<span style="color:hsl(36,90%,60%)">R</span>
-				<span style="color:hsl(72,90%,45%)">I</span>
-				<span style="color:hsl(108,90%,60%)">E</span>
-				<span style="color:hsl(144,90%,60%)">N</span>
-				<span style="color:hsl(180,90%,60%)">D</span>
-				<span style="color:hsl(216,90%,60%)">S</span>
-				<span style="color:hsl(252,90%,60%)">H</span>
-				<span style="color:hsl(288,90%,60%)">I</span>
-				<span style="color:hsl(324,90%,60%)">P</span>
+				FAITES LES TOUS RENTRER DANS LA BOITE DE
+				<span style="color:hsl(0,90%,60%)">L</span>
+				<span style="color:hsl(36,90%,60%)">&rsquo;</span>
+				<span style="color:hsl(72,90%,45%)">A</span>
+				<span style="color:hsl(108,90%,60%)">M</span>
+				<span style="color:hsl(180,90%,60%)">I</span>
+				<span style="color:hsl(216,90%,60%)">T</span>
+				<span style="color:hsl(252,90%,60%)">I</span>
+				<span style="color:hsl(288,90%,60%)">É</span>
 				<br>
-				<span style="font-size:18px">(hint: don't move them straight to the box; keep the pairs close together)</span>
+				<span style="font-size:18px">(indice: ne les bougez pas directement dans la boite; gardez les paires proches ensemble)</span>
 			</b>
 		</p>
 
 		<iframe playable src="play/mini/mini_cooperate.html" width="810" height="290" scrolling="no" style="margin:0 auto;display:block" embedded></iframe>
 		
 		<p>
-			At first, going out on your own can be isolating...
-			but by working together, step by step, we'll get there.
+			Au début, partir de son propre chef peut être isolant...
+			mais à force de travailler ensemble, petit à petit, on y arrive.
 		</p>
 
 		<div class="instruction">
-			finally, a big ol' sandbox to play around in.
+			finalement, une voici une bonne grosse société pour s'amuser.
 		</div>
 	</div>
 
-	<!-- PLAYABLE -->
+	<!-- JOUABLE -->
 	<div class="playable">
 		<iframe playable src="play/automatic/automatic_sandbox.html" width="1030" height="600"></iframe>
 	</div>
 
-	<!-- CHAPTER -->
+	<!-- CHAPITRE -->
 	<div class="chapter">
 		<div class="instruction" style="font-size:50px; line-height:50px">
-			WRAPPING UP:
+			POUR CONCLURE:
 		</div>
 		<p>
-			<b>1. Small individual bias &rarr; Large collective bias.</b>
+			<b>1. Petite préférence individuelle &rarr; Grosse préférence collective.</b>
 			<br>
 			<!--Micromotives, macrobehaviour...-->
-			When someone says a culture is shapist, they're not saying the <i>individuals</i> in it are shapist.
-			They're not attacking you personally.
+			Quand on dit qu&rsquo;une culture est formiste, on ne dit pas que ses <i>individus</i> sont formistes.
+			Ce n&rsquo;est pas une attaque personelle.
 		</p>
 		<p>
-			<b>2. The past haunts the present.</b>
+			<b>2. Le passé hante le présent.</b>
 			<br>
-			Your bedroom floor doesn't stop being dirty just coz you stopped dropping food all over the carpet.
-			Creating equality is like staying clean: it takes work. And it's always a work in progress.
+			Le sol de votre chambre n&rsquo;arrête pas d&rsquo;être sale juste parce que vous arrêtez de jeter des détritus par terre.
+			Créer de l'égalité, c&rsquo;est comme rester propre: ça demande du travail. Et on peut toujours faire mieux.
 		</p>
 		<p>
-			<b>3. Demand diversity near you.</b>
+			<b>3. Demandez de la diversité autour de vous.</b>
 			<br>
-			If small biases created the mess we're in, small anti-biases might fix it.
-			Look around you. Your friends, your colleagues, that conference you're attending.
-			If you're all triangles, you're missing out on some amazing squares in your life -
-			that's unfair to everyone. Reach out, beyond your immediate neighbors.
+			Si des petites préférences ont créé la situation dans laquelle nous sommes, de petites anti-préférences pourraient la corriger.
+			Regardez autour de vous. Vos amis, vos collègues, cette conférence à laquelle vous participez.
+			Si vous êtes tous des triangles, vous êtes en train de rater des carrés géniaux -
+			c'est injuste pour tout le monde. Étirez vos horizons, au delà de vos voisins immédiats.
 		</p>
 		<iframe playable src="play/mini/mini_ending.html" width="600" height="80" scrolling="no" style="margin:0 auto;display:block" embedded></iframe>
 	</div>
 
-	<!-- References &amp; Remixes (Writing|Professor|Infographic|Video|Music -->
+	<!-- Références &amp; Remixes (Writing|Professor|Infographic|Video|Music -->
 	<div style="width: 100%; background: #222; overflow: hidden; color:#ddd">
 		<div class="chapter">
 			<div class="instruction">
-				Thank you for playing this blog post!
+				Merci pour avoir joué à cet essai interactif !
 			</div>
 			<br>
 			<div style="font-size:16px; line-height:18px">
 
-				Our cute, adorable segregation simulator is based off the work of Nobel Prize-winning game theorist,
-				Thomas Schelling. Specifically, his mathematical model of racial segregation found in
+				Notre mignonne, adorable simulation de clivage est basée sur le travail de Thomas Schelling, un théoricien des jeux ayant reçu le prix Nobel. Notamment, sur son modèle mathématique de ségrégation raciale trouvé dans
 				<a target="_blank" href="http://www.stat.berkeley.edu/~aldous/157/Papers/Schelling_Seg_Models.pdf">
 				Dynamic Models of Segregation.</a>
-				We built on top of his model, by showing how adding a small cultural demand for diversity can help
-				desegregate a neighborhood. In other words, we gave his model a happy ending.
+				Nous avons bâti sur son modèle, en montrant comment ajouter une petite demande culturelle pour de la diversité peut aider à décliver un voisinage. En d'autres mots, nous avons donnés un fin joyeuse à son modèle.
 
 				<br><br>
 
-				Schelling's model is a convincing demonstration of how
-				<span cartoon="hat.jpg">innocent-seeming</span> rules
-				can create very undesirable outcomes, but of course real-life situations are more complicated.
-				You might enjoy taking a closer look at real data in reference to Schelling's model.
-				W.A.V. Clark's 1991 paper <a target="_blank" href="http://smg.media.mit.edu/library/Clark.ResidentialSegregation.pdf">
-				Residential Preferences and Neighborhood Racial Segregation: A Test of the Schelling Segregation Model</a>
-				has a lot of interesting data in it.
+				Le modèle de Schelling est une démonstration convaincante de comment des règles
+				<span cartoon="hat.jpg">paraissant innocentes</span> peuvent avoir des conséquences non désirables, mais bien sur en vrai les choses sont plus compliquées.
+				Vous apprécierez sans doute à de vraies données en référence au modèle de Schelling.
+				Le papier <a target="_blank" href="http://smg.media.mit.edu/library/Clark.ResidentialSegregation.pdf">
+				Residential Preferences and Neighborhood Racial Segregation: A Test of the Schelling Segregation Model</a> écrit par W.A.V. Clark en 1991 a beaucoup de données intéressantes.
 
 				<br><br>
 
-				Schelling's model explores one small aspect of how tiny bias can have large accumulative effects,
-				but there's other models that focus on other aspects.
+				Le modèle de Schelling explore un petit aspect de comment une petite préférence peut avoir de gros effets cumulatifs,
+				mais il y'a d'autre modèles qui se concentrent sur d'autres aspects.
 				<a target="_blank" href="http://www.ruf.rice.edu/~lane/papers/male_female.pdf">
 				Male-Female Differences: A Computer Simulation</a>
-				shows how extremely small differences in the perception of men and women's work can have huge effects.
+				montre comment une de toutes petites différences dans la perception du travail d'homme et femmes peuvent avoir de grandes conséquences.
 				<a target="_blank" href="http://iangent.blogspot.com/2013/10/the-petrie-multiplier-why-attack-on.html">
-				The Petrie Multiplier</a>
-				explores how small negative actions of
-				<span cartoon="not_all_triangles.jpg">a few bad apples</span>
-				can become multiplied by certain situations.
+				Le Multiplicateur de Petrie</a>
+				explore comment de petites actions négatives
+				<span cartoon="not_all_triangles.jpg">provenent de quelques mauvaises personnes</span>
+				peuvent se retrouver multipliées par certaines situations.
 
 				<br><br>
 
-				The takeaway from our variant of Schelling's simulator is that demanding a single bit of diversity
-				in your spaces makes a huge difference overall. For a real-world application of this idea,
-				see <a target="_blank" href="http://plzdiversifyyourpanel.tumblr.com/">Plz Diversify Your Panel</a>,
-				an initiative where overrepresented speakers refuse invitations
-				to speak on panels that don't include diverse representation.
+				Ce qu'il faut tirer de notre variante de la simulation de Schelling est que demander un tout petit peu de diersité dans vos espaces résulte en une grosse différence au bout du compte. Pour une application concrète de cette idée, voyez le site anglais <a target="_blank" href="http://plzdiversifyyourpanel.tumblr.com/">Plz Diversify Your Panel</a>,
+				une initiative où des orateurs sur-représentés refusent de parler dans des conditions qui n'incluent pas une représentation variée.
 
 				<br><br>
 
-				The format of this playable post was inspired by Bret Victor's work on 
+				Le format de cet essai jouable a été inspiré par le travail de Bret Victor sur les
 				<a target="_blank" href="http://worrydream.com/ExplorableExplanations/">
-				Explorable Explanations</a> and Ian Bogost's work on 
+				"Explications Explorables"</a> et le travail d'Ian Bogost's sur
 				<a target="_blank" href="http://bogost.com/books/persuasive_games/">
-				procedural rhetoric</a>.
+				la rhétorique procédurable</a>.
 
 			</div>
 		</div>
