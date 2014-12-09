@@ -1,18 +1,19 @@
 ![](http://i.imgur.com/NcsRW1q.png)
 
-**[PLAY IT HERE](http://ncase.me/polygons)**
+**[JOUEZ Y ICI](http://gardaud.github.com/polygons)**
+**[VERSION ANGLAISE ORIGINALE](http://ncase.me/polygons)**
 
 ---
 
-This playable post is [public domain (CC0)](http://creativecommons.org/publicdomain/zero/1.0).
+Cet essai jouable est dans le [domaine public (CC0)](http://creativecommons.org/publicdomain/zero/1.0).
 			
-Please feel free to use this in your classrooms,
-make video/picture/text adaptations,
-or modify the source code!
-attribution is not mandatory, but super appreciated.
-We are [Vi Hart](http://vihart.com/) and [Nicky Case](http://ncase.me/).
+faites en usage dans vos salles de classe,
+ou faites en des adaptations textes/vidéos/images,
+ou bien modifiez le code source!
+l'attribution n'est pas nécessaire, mais très appréciée.
+Nous sommes [Vi Hart](http://vihart.com/) et [Nicky Case](http://ncase.me/); [Guillaume Ardaud](http://gardaud.fr) pour l'adaptation française.
 		
-Show us how you're using and remixing Parable of the Polygons!    
-Tweet us at
-[@vihartvihart](https://twitter.com/vihartvihart) and
-[@ncasenmare](https://twitter.com/ncasenmare).
+montrez nous ce que fous faites avec La Parabole des Polygones!
+Tweetez nous à
+[@vihartvihart](https://twitter.com/vihartvihart) et [@ncasenmare](https://twitter.com/ncasenmare) (en)
+[@gardaud](https://twitter.com/gardaud) (fr)
