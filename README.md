@@ -1,4 +1,4 @@
-![](http://i.imgur.com/NcsRW1q.png)
+![](http://i.imgur.com/MFYkjOr.png)
 
 **[JOUEZ Y ICI](http://gardaud.github.com/polygons)**
 **[VERSION ANGLAISE ORIGINALE](http://ncase.me/polygons)**
